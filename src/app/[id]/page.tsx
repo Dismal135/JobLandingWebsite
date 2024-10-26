@@ -1,7 +1,9 @@
 import Image from "next/image";
 import { getWebsiteById } from "@/lib/action";
 
-const WebsiteDetail = async ({params}: {params: {id: string}}) => {
+type Params = Promise<{ id: string }>;
+
+const WebsiteDetail = async ({params}: {params: Params}) => {
     const {id} = await params;
     const website = getWebsiteById(id);
 
