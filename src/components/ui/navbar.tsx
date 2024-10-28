@@ -9,8 +9,8 @@ import {
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-between p-4 fixed top-0 w-full z-50 bg-white">
-        <h1 className="font-bold">Show Case</h1>
+        <nav className="flex justify-between fixed top-0 z-50 w-full bg-white px-1 py-2">
+          <h1 className="font-bold">Landing Page</h1>
         <DropdownMenu>
   <DropdownMenuTrigger className="font-bold">Menu</DropdownMenuTrigger>
   <DropdownMenuContent>
