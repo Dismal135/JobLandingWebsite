@@ -1,13 +1,11 @@
 import HeroSlideShow from "@/components/ui/heroSlideshow";
 import Websites from "@/components/ui/website";
 import nextjs from '@/app/images/nextjsicon.png';
-import newsapaper from '@/app/images/newspaper.png';
 import react from '@/app/images/reacticon.png';
 import shadcn from '@/app/images/image-72 (1).png';
 import ffc from '@/app/images/ffcicon.png';
 import w3schools from "@/app/images/w3schoolsicon.jpg";
 import Image from "next/image";
-import { useState } from "react";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFreeCodeCamp } from "react-icons/fa";
