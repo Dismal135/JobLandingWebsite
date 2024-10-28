@@ -6,8 +6,31 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 @layer base {
   :root {
     --radius: 0.5rem;
   }
+}
+
+.marquee {
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0)
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee:hover {
+  animation-play-state: paused;
 }
