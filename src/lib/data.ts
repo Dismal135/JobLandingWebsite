@@ -31,6 +31,7 @@ export const websitesDetails = [
         usage: 'For tracking invoice activities.',
         technologies: 'Next.js, shadcn, TypeScript, Zod, etc.',
         image: dashbaord,
+        href: 'https://ffc-magazine.vercel.app',
         icon: dashboardicon
     },
     {   
@@ -41,6 +42,7 @@ export const websitesDetails = [
         usage: 'For documentation.',
         technologies: 'HTML, CSS',
         image: magazine,
+        href: 'https://ffc-magazine.vercel.app',
         icon: newspaper
     }
 ];

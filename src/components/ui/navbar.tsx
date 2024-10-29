@@ -6,20 +6,22 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
   } from "@/components/ui/dropdown-menu"
+import Link from "next/link";
+import { Button } from "./button";
 
 const Navbar = () => {
     return (
       <div className="flex relative justify-center">
         <nav className="flex justify-between fixed top-0 z-50 w-full max-w-[1200px] mt-4 px-2">
-          <h1 className="font-bold bg-black text-white p-2 rounded-sm">Landing Page</h1>
+          <h1 className="font-bold bg-black text-white p-2 rounded-sm"><Link href="/">Landing Page</Link></h1>
         <DropdownMenu>
   <DropdownMenuTrigger className="font-bold bg-black text-white p-2 rounded-sm">Menu</DropdownMenuTrigger>
   <DropdownMenuContent>
-    <DropdownMenuLabel>Home</DropdownMenuLabel>
+    <DropdownMenuLabel><Link href="/">Home</Link></DropdownMenuLabel>
     <DropdownMenuLabel>Websites</DropdownMenuLabel>
     <DropdownMenuSeparator />
-    <DropdownMenuItem>Nextjs Dashboard</DropdownMenuItem>
-    <DropdownMenuItem>FreeCodeCamp Magazine</DropdownMenuItem>
+    <DropdownMenuItem><Link href="/nextjsdashboard">Nextjs Dashboard</Link></DropdownMenuItem>
+    <DropdownMenuItem><Link href='/ffcmagazine'>FreeCodeCamp Magazine</Link></DropdownMenuItem>
     <DropdownMenuLabel>Social Media</DropdownMenuLabel>
     <DropdownMenuSeparator />
     <DropdownMenuItem>FaceBook</DropdownMenuItem>

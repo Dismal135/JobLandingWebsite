@@ -19,7 +19,7 @@ const Websites = () => {
                         </div>
                         <div className="space-x-2">
                             <Link href={website.link}><Button size={"sm"}>Details</Button></Link>
-                            <a href={website.href}><Button size={"sm"}>Visit</Button></a>
+                            <a target="_blank" href={website.href}><Button size={"sm"}>Visit</Button></a>
                         </div>
                         </div>
                     </div>
