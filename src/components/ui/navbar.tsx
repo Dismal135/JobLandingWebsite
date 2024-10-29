@@ -7,7 +7,6 @@ import {
     DropdownMenuTrigger,
   } from "@/components/ui/dropdown-menu"
 import Link from "next/link";
-import { Button } from "./button";
 
 const Navbar = () => {
     return (
