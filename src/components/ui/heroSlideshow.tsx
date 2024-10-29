@@ -17,19 +17,19 @@ import { websites } from "@/lib/data";
 const HeroSlideShow = () => {
 
   return (
-    <section className="mt-[40px]">
+    <section>
       <Carousel plugins={[Autoplay({
         delay: 2000,
       })]}>
         <CarouselContent>
           {
             websites.map((website, i) => (
-              <CarouselItem key={i}><Image src={website.image} width={500} height={500} alt="nextjs-dashboard" /><div className="absolute bottom-2 flex w-full justify-between px-2"><Link href={website.link}><Button size={"sm"}>Details</Button></Link><Link href={website.href} target="_blank"><Button size={"sm"}>Visit</Button></Link></div></CarouselItem>
+              <CarouselItem key={i}><Image src={website.image} className="w-full max-h-[800px]" width={undefined} height={500} alt="nextjs-dashboard" /><div className="absolute bottom-2 flex w-full justify-between px-2"><Link href={website.link}><Button size={"sm"}>Details</Button></Link><Link href={website.href} target="_blank"><Button size={"sm"}>Visit</Button></Link></div></CarouselItem>
             ))
           }
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="bg-black text-white" />
+        <CarouselNext className="bg-black text-white" />
       </Carousel>
     </section>
   )

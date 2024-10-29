@@ -9,10 +9,11 @@ import {
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-between fixed top-0 z-50 w-full bg-white px-1 py-2">
-          <h1 className="font-bold">Landing Page</h1>
+      <div className="flex relative justify-center">
+        <nav className="flex justify-between fixed top-0 z-50 w-full max-w-[1200px] mt-4 px-2">
+          <h1 className="font-bold bg-black text-white p-2 rounded-sm">Landing Page</h1>
         <DropdownMenu>
-  <DropdownMenuTrigger className="font-bold">Menu</DropdownMenuTrigger>
+  <DropdownMenuTrigger className="font-bold bg-black text-white p-2 rounded-sm">Menu</DropdownMenuTrigger>
   <DropdownMenuContent>
     <DropdownMenuLabel>Home</DropdownMenuLabel>
     <DropdownMenuLabel>Websites</DropdownMenuLabel>
@@ -28,6 +29,7 @@ const Navbar = () => {
   </DropdownMenuContent>
 </DropdownMenu>
       </nav>
+      </div>
     )
 };
 
