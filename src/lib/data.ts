@@ -31,7 +31,7 @@ export const websitesDetails = [
         usage: 'For tracking invoice activities.',
         technologies: 'Next.js, shadcn, TypeScript, Zod, etc.',
         image: dashbaord,
-        href: 'https://ffc-magazine.vercel.app',
+        href: 'https://nextjs-dashboardpth.vercel.app',
         icon: dashboardicon
     },
     {   
