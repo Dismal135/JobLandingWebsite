@@ -9,16 +9,16 @@ const MarqueeIcons = () => {
     return (
         <section className='overflow-hidden'>
           <div className='flex gap-4 marquee lg:animate-none lg:mx-auto w-[1043px]'>
-          <Image className='h-[100px] w-[160px]' src={nextjs} width={undefined} height={undefined} alt="icon" />
-          <Image className='h-[100px] w-[302px]' src={react} width={undefined} height={undefined} alt="icon" />
-          <Image className='h-[100px] w-[252px]' src={shadcn} width={undefined} height={undefined} alt="icon" />
-          <Image className='h-[100px] w-[148px]' src={ffc} width={undefined} height={undefined} alt="icon" />
-          <Image className='h-[100px] w-[100px]' src={w3schools} width={undefined} height={undefined} alt="icon" />
-          <Image className='lg:hidden h-[100px] w-[160px]' src={nextjs} width={undefined} height={undefined} alt="icon" />
-          <Image className='lg:hidden h-[100px] w-[302px]' src={react} width={undefined} height={undefined} alt="icon" />
-          <Image className='lg:hidden h-[100px] w-[252px]' src={shadcn} width={undefined} height={undefined} alt="icon" />
-          <Image className='lg:hidden h-[100px] w-[148px]' src={ffc} width={undefined} height={undefined} alt="icon" />
-          <Image className='lg:hidden h-[100px] w-[100px]' src={w3schools} width={undefined} height={undefined} alt="icon" />
+          <Image src={nextjs} width={160} height={100} alt="icon" />
+          <Image src={react} width={302} height={100} alt="icon" />
+          <Image src={shadcn} width={252} height={100} alt="icon" />
+          <Image src={ffc} width={148} height={100} alt="icon" />
+          <Image src={w3schools} width={100} height={100} alt="icon" />
+          <Image className='lg:hidden' src={nextjs} width={160} height={100} alt="icon" />
+          <Image className='lg:hidden' src={react} width={302} height={100} alt="icon" />
+          <Image className='lg:hidden' src={shadcn} width={252} height={100} alt="icon" />
+          <Image className='lg:hidden' src={ffc} width={148} height={100} alt="icon" />
+          <Image className='lg:hidden' src={w3schools} width={100} height={100} alt="icon" />
           </div>
         </section>
     )
