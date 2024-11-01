@@ -8,7 +8,7 @@ import Image from "next/image";
 const MarqueeIcons = () => {
     return (
         <section className='overflow-hidden'>
-          <div className='flex gap-4 marquee lg:animate-none w-[1040px] lg:mx-auto'>
+          <div className='flex gap-4 marquee lg:animate-none w-[1040px] lg:mx-auto border border-black'>
           <Image src={nextjs} width={undefined} height={100} alt="icon" />
           <Image src={react} width={undefined} height={100} alt="icon" />
           <Image src={shadcn} width={undefined} height={100} alt="icon" />

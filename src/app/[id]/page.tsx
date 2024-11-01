@@ -7,6 +7,7 @@ type Params = Promise<{ id: string }>;
 const WebsiteDetail = async ({params}: {params: Params}) => {
     const {id} = await params;
     const website = getWebsiteById(id);
+    console.log
 
     if(!website) {
         return <h1>
