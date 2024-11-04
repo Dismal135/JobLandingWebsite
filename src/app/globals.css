@@ -17,24 +17,6 @@ body {
   }
 }
 
-.marquee {
-  animation: marquee 10s linear infinite;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(100%)
-  }
-
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-.marquee:hover {
-  animation-play-state: paused;
-}
-
 .box-shadow {
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
