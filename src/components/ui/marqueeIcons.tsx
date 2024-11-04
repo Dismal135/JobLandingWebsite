@@ -7,13 +7,8 @@ import Image from "next/image";
 
 const MarqueeIcons = () => {
     return (
-        <section className='overflow-hidden'>
-          <div className='marquee lg:animate-none lg:mx-auto flex gap-[10px] w-[1010px]'>
-          <Image src={nextjs} width={undefined} height={100} alt="icon" />
-          <Image src={react} width={undefined} height={100} alt="icon" />
-          <Image src={shadcn} width={undefined} height={100} alt="icon" />
-          <Image src={ffc} width={undefined} height={100} alt="icon" />
-          <Image src={w3schools} width={undefined} height={100} alt="icon" />
+        <section className='overflow-hidden max-w-[1000px] mx-auto'>
+          <div className='marquee lg:mx-auto flex gap-[10px] w-[880px]'>
           <Image src={nextjs} width={undefined} height={100} alt="icon" />
           <Image src={react} width={undefined} height={100} alt="icon" />
           <Image src={shadcn} width={undefined} height={100} alt="icon" />
